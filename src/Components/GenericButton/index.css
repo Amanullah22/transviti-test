@@ -1,0 +1,10 @@
+.generic_btn {
+    padding: 10px 20px;
+    margin-top: 18px;
+    margin-left: 80px;
+    color: #FFF;
+    background-color: #0154AA;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
