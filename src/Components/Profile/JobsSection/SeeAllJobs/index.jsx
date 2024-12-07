@@ -6,7 +6,7 @@ const AllJobs = (props) => {
     let jobs = [1, 2, 3, 4, 5]
 
     const getJobs = () => {
-        return <div style={{ width: '32%', marginRight: '5px' }}>
+        return <div className="card-container">
             <img src={Card} alt="Card" className="card"></img>
         </div>
     }

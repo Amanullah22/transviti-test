@@ -84,10 +84,20 @@ p {
     font-family: customFont;
 }
 
-.similar-section span {
+.similar-chips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.similar-chips span {
+    padding-top: 5px;
+}
+
+.chip {
     border: 1px solid #737A91;
     border-radius: 5px;
     margin: 0px 5px;
+    margin-bottom: 5px;
     padding: 5px;
     cursor: pointer;
 }
@@ -102,7 +112,7 @@ p {
     .search-section {
         display: inline-block;
         text-align: center;
-        padding: 5%;
+        padding: 4%;
     }
 
     .jobs_search_field {

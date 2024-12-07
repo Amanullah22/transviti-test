@@ -29,8 +29,8 @@ const JobsSection = () => {
 
             <div className="similar-section">
                 <div className="similar-chips">
-                    Similar: &nbsp; {similar.map((item) => (
-                        <span>{item}</span>
+                    <span>Similar: &nbsp; </span>{similar.map((item) => (
+                        <div className="chip">{item}</div>
                     ))}
                 </div>
 

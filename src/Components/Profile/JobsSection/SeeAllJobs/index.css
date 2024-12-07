@@ -24,6 +24,11 @@
     font-family: customBoldFont;
 }
 
+.card-container {
+    width: 32%;
+    margin-right: 5px
+}
+
 .card {
     object-fit: contain;
     width: 100%;
@@ -36,5 +41,9 @@ hr {
 @media only screen and (max-width: 1000px) {
     .jobs-section {
         flex-wrap: wrap;
+    }
+
+    .card-container {
+        margin-right: 4px
     }
 }
