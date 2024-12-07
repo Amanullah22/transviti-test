@@ -110,6 +110,10 @@
         width: 126px !important;
     }
 
+    .btn-container {
+        width: fit-content;
+    }
+
     .logo {
         float: left;
         margin-left: 30px;
