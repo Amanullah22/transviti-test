@@ -1,3 +1,19 @@
 .info-container {
     width: 15%;
 }
+
+.profile-image {
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 1000px) {
+    .info-container {
+        width: 100%;
+        text-align: center;
+        padding-left: 2.5%;
+    }
+
+    .profile-image {
+        width: 100%;
+    }
+}

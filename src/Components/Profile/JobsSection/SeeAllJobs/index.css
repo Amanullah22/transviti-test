@@ -1,18 +1,40 @@
+@font-face {
+    font-family: customFont;
+    src: url('../../../../fonts/NeueHaasDisplayLight.ttf');
+}
+
+@font-face {
+    font-family: customBoldFont;
+    src: url('../../../../fonts/NeueHaasDisplayMediu.ttf');
+}
+
+.all-jobs-container {
+    font-family: customFont;
+    font-size: 18px;
+}
+
 .jobs-section {
     display: flex;
     margin-top: 20px;
+    width: 100%;
 }
 
-a {
+.all-jobs-container a {
     font-size: 14px;
-    font-weight: 500;
+    font-family: customBoldFont;
 }
 
 .card {
-    margin-right: 20px;
     object-fit: contain;
+    width: 100%;
 }
 
 hr {
     margin: 20px 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .jobs-section {
+        flex-wrap: wrap;
+    }
 }

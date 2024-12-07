@@ -4,3 +4,9 @@
     justify-content: space-between;
     margin: 30px auto;
 }
+
+@media only screen and (max-width: 1000px) {
+    .profile-main-container {
+        display: inline-block;
+    }
+}

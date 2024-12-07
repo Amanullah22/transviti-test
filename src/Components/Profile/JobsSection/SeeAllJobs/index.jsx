@@ -6,11 +6,13 @@ const AllJobs = (props) => {
     let jobs = [1, 2, 3, 4, 5]
 
     const getJobs = () => {
-        return <img src={Card} alt="Card" className="card"></img>
+        return <div style={{ width: '32%', marginRight: '5px' }}>
+            <img src={Card} alt="Card" className="card"></img>
+        </div>
     }
 
     return <>
-        <div>
+        <div className="all-jobs-container">
             <hr style={{ border: '1px solid #E9ECEF' }} />
             {props.type} Jobs&nbsp;&nbsp;<a href='#' style={{ color: '#0154AA' }}>See {props.type} Jobs</a>
             <div className="jobs-section">

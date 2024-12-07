@@ -1,3 +1,13 @@
+@font-face {
+    font-family: customFont;
+    src: url('../../fonts/NeueHaasDisplayLight.ttf');
+}
+
+@font-face {
+    font-family: customBoldFont;
+    src: url('../../fonts/NeueHaasDisplayBold.ttf');
+}
+
 .navbar-main {
     width: 100%;
     background-color: #FFF;
@@ -18,16 +28,17 @@
 .links-container {
     width: 60%;
     padding-top: 25px;
+    font-family: customFont;
 }
 
 .find {
-    font-weight: bold;
     color: #0154AA !important;
+    font-family: customBoldFont;
 }
 
 .links-container a {
     text-decoration: none;
-    margin: 0px 10px;
+    margin: 0px 15px;
     font-size: 16px;
     color: #737A91;
     font-weight: 500px;
@@ -35,20 +46,21 @@
 }
 
 .search-container {
-    width: 15%;  
+    width: 15%;
+    font-family: customFont;
 }
 
 .search_field {
     width: 100%;
     border: 1px solid transparent;
-    margin-top: 15px;
+    margin-top: 13px;
     padding: 13px 10px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 500px;
     background-color: #F6F9FF;
     background-image: url('../../Images/search.png');
-    background-position: 10px 11px; 
+    background-position: 10px 11px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
 }
@@ -60,10 +72,16 @@
 
 .profile {
     object-fit: contain;
-    margin-top: 18px;
+    margin-top: 16px;
     cursor: pointer;
 }
 
 .dp-container {
     padding: 0px 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar-main {
+        display: none;
+    }
 }

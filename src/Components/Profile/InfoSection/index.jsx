@@ -5,7 +5,7 @@ import './index.css'
 const InfoSection = () => {
     return <>
         <div className="info-container">
-            <img src={About}></img>
+            <img src={About} className="profile-image"></img>
         </div>
     </>
 }

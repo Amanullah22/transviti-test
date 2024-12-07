@@ -28,9 +28,11 @@ const JobsSection = () => {
             </div>
 
             <div className="similar-section">
-                Similar: &nbsp; {similar.map((item) => (
-                    <span>{item}</span>
-                ))}
+                <div className="similar-chips">
+                    Similar: &nbsp; {similar.map((item) => (
+                        <span>{item}</span>
+                    ))}
+                </div>
 
                 <AllJobs type={'Featured'} />
                 <AllJobs type={'Recommended'} />
