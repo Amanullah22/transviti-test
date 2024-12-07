@@ -31,6 +31,21 @@ const NavBar = () => {
                 </div>
             </div>
         </div>
+
+        <div className="mobile-nav">
+            <div className="icon-container">
+                <img src={logo} className="logo" alt={"logo"} />
+            </div>
+            <div className="profile-container">
+                <div style={{ width:'60%' }} />
+                <div className="btn-container">
+                    <Button content={'Resume Builder'} className='nav-btn' />
+                </div>
+                <div className="dp-container">
+                    <img src={profile} alt="profile" className="profile"></img>
+                </div>
+            </div>
+        </div>
     </>
 }
 

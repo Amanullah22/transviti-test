@@ -8,5 +8,6 @@
 @media only screen and (max-width: 1000px) {
     .profile-main-container {
         display: inline-block;
+        margin: 10px auto;
     }
 }
